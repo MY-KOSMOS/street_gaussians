@@ -1,5 +1,5 @@
-pyyaml
-tqdm
+pyyaml~=6.0.2
+tqdm~=4.66.5
 opencv-python
 imgaug
 lpips
@@ -7,11 +7,11 @@ plyfile
 tensorboard
 sympy
 numpy==1.23.5
-pillow
-matplotlib
-bidict
+pillow~=10.4.0
+matplotlib~=3.7.2
+bidict~=0.21.2
 ipdb
-imageio
+imageio~=2.33.1
 imageio-ffmpeg
 open3d
 timm
@@ -19,7 +19,7 @@ torchmetrics
 kornia
 roma
 imgviz
-protobuf==3.19.
-termcolor
+protobuf==3.19
+termcolor~=2.1.0
 segment_anything
-git+https://github.com/NVlabs/nvdiffrast.git
+# git+https://github.com/NVlabs/nvdiffrast.git

@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 import os
-from simple_knn._C import distCUDA2
+#from simple_knn._C import distCUDA2
 from lib.config import cfg
 from lib.utils.general_utils import quaternion_to_matrix, \
     build_scaling_rotation, \

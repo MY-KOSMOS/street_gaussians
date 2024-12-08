@@ -10,7 +10,7 @@ from lib.datasets.waymo_full_readers import readWaymoFullInfo
 
 sceneLoadTypeCallbacks = {
     "Colmap": readColmapSceneInfo,
-    "Blender" : readNerfSyntheticInfo,
+    "Blender": readNerfSyntheticInfo,
     "Waymo": readWaymoFullInfo,
 }
 

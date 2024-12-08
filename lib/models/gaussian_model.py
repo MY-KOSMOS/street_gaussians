@@ -2,7 +2,8 @@ import torch
 import torch.nn as nn
 import numpy as np
 import os
-from simple_knn._C import distCUDA2
+# from simple_knn._C import distCUDA2
+from .simknn import distCUDA2
 from lib.config import cfg
 from lib.utils.general_utils import inverse_sigmoid, get_expon_lr_func, quaternion_to_matrix
 from lib.utils.sh_utils import RGB2SH
@@ -12,7 +13,6 @@ from lib.utils.system_utils import mkdir_p
 from lib.utils.data_utils import to_cuda
 from plyfile import PlyData, PlyElement
 from lib.utils.camera_utils import Camera
-
 
 class GaussianModel(nn.Module):
     def __init__(self, model_name='background', num_classes=1):
